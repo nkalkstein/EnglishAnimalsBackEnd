@@ -2,7 +2,6 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-#
   cat = Animal.create(name: 'Gato', image: 'https://www.argospetinsurance.co.uk/assets/uploads/2017/12/cat-pet-animal-domestic-104827.jpeg')
   dog = Animal.create( name: 'Cachorro', image: 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12233437/Entlebucher-Mountain-Dog-On-White-01.jpg')
   horse = Animal.create( name: 'Cavalo', image: 'http://www.horsechannel.com/images/horse-news-article-images/chestnut-horse-autumn_1000.jpg')
@@ -15,9 +14,16 @@
   giraffe = Animal.create( name: 'Girafa', image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/GiraffaCamelopardalisTippelskirchi-Masaai-Mara.JPG')
   gorilla = Animal.create( name: 'Gorila', image: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Male_gorilla_in_SF_zoo.jpg')
   monkey = Animal.create( name: 'Macaco', image: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Bonnet_macaque_%28Macaca_radiata%29_Photograph_By_Shantanu_Kuveskar.jpg')
-  lion = Animal.create( name: 'leão', image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Male_Lion_on_Rock.jpg')
+  lion = Animal.create( name: 'Leão', image:'https://upload.wikimedia.org/wikipedia/commons/4/49/Male_Lion_on_Rock.jpg')
   bird = Animal.create( name: 'Passaro', image: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Turdus-migratorius-002.jpg')
   zebra = Animal.create( name: 'Zebra', image: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg')
   alligator = Animal.create( name:'Jacaré', image: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Two_american_alligators.jpg')
   whale = Animal.create( name:'Baleia', image: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Humpback_stellwagen_edit.jpg')
-  
+  squirrel = Animal.create( name: 'Esquilo', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eastern_Grey_Squirrel.jpg/1920px-Eastern_Grey_Squirrel.jpg')
+  bear = Animal.create( name: 'Urso', image: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Medved_mzoo.jpg')
+  deer = Animal.create( name: 'Veado', image: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/White-tailed_deer.jpg')
+  wolf =  Animal.create( name: 'Lobo', image: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Eurasian_wolf.JPG')
+  turtle = Animal.create( name: 'Tartaruga', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Florida_Box_Turtle_Digon3.jpg/2560px-Florida_Box_Turtle_Digon3.jpg')
+  bat = Animal.create( name: 'Bastão', image: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg')
+  goat = Animal.create( name: 'Bode', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/1920px-Hausziege_04.jpg')
+  cheetah = Animal.create( name: 'Guepardo', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Female_Cheetah_%28Acynonyx_jubatus%29_%288292038736%29.jpg/2560px-Female_Cheetah_%28Acynonyx_jubatus%29_%288292038736%29.jpg')
